@@ -1,0 +1,143 @@
+* {
+    font-size: 1.4em;
+}
+body{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 5%;
+}
+.calculator {
+    border: aqua solid;
+    width: 100%;
+    padding: 2% 3% 2% 2%;
+}
+
+#btn-cover {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    padding-top: 2%;
+}
+#inp-cover {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border:black solid;
+}
+.inp{
+    padding: 0;
+    width: 100%;
+    height: 40%;
+    font-size: 0.6em; /*输入框字体大小*/
+    caret-color: transparent; /*隐藏光标*/
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    outline: none;
+}
+.result{
+    padding: 0;
+    width: 100%;
+    height: 60%;
+    font-size: 1em; /*输入框字体大小*/
+    caret-color: transparent; /*隐藏光标*/
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 134px;
+    height: 100px;
+}
+
+/*button的grid布局*/
+#ac {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 100%;
+    color: coral;
+}
+#bs {
+    grid-column: 2 / span2;
+    grid-row: 1;
+    width: 278px;
+    color: coral;
+}
+
+#zero {
+    grid-column: 2;
+    grid-row: 5;
+}
+#one {
+    grid-column: 1;
+    grid-row: 4;
+}
+#two {
+    grid-column: 2;
+    grid-row: 4;
+}
+#three {
+    grid-column: 3;
+    grid-row: 4;
+}
+#four {
+    grid-column: 1;
+    grid-row: 3;
+}
+#five {
+    grid-column: 2;
+    grid-row: 3;
+}
+#six {
+    grid-column: 3;
+    grid-row: 3;
+}
+#seven {
+    grid-column: 1;
+    grid-row: 2;
+}
+#eight {
+    grid-column: 2;
+    grid-row: 2;
+}
+#nine {
+    grid-column: 3;
+    grid-row: 2;
+}
+#point {
+    grid-column: 1;
+    grid-row: 5;
+}
+#plus {
+    grid-column: 4;
+    grid-row: 1;
+    color: coral;
+}
+#sub {
+    grid-column: 4;
+    grid-row: 2;
+    color: coral;
+}
+#multi {
+    grid-column: 4;
+    grid-row: 3;
+    color: coral;
+}
+#divide {
+    grid-column: 4;
+    grid-row: 4;
+    color: coral;
+}
+#equal {
+    grid-column: 3 / span 3;
+    grid-row: 5;
+    width: 278px;
+    background-color: coral;
+}

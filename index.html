@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="assets/js/calculator.js"></script>
+    <link type="text/css" rel="styleSheet"  href="assets/css/calculator.css" />
+
+</head>
+<body>
+    <div class="calculator">
+        <div id="inp-cover">
+            <!--suppress HtmlFormInputWithoutLabel -->
+            <input class="result" type="text" readonly>
+            <!--suppress HtmlFormInputWithoutLabel -->
+            <input class="inp" type="text" readonly>
+        </div>
+        <div id="btn-cover">
+            <button onclick="addStr(1)" id="one">1</button>
+            <button onclick="addStr(2)" id="two">2</button>
+            <button onclick="addStr(3)" id="three">3</button>
+            <button onclick="addStr(4)" id="four">4</button>
+            <button onclick="addStr(5)" id="five">5</button>
+            <button onclick="addStr(6)" id="six">6</button>
+            <button onclick="addStr(7)" id="seven">7</button>
+            <button onclick="addStr(8)" id="eight">8</button>
+            <button onclick="addStr(9)" id="nine">9</button>
+            <button onclick="addStr(0)" id="zero">0</button>
+            <button onclick="addStr('.')" id="point">.</button>
+            <button onclick="addStr('+')" id="plus">+</button>
+            <button onclick="addStr('-')" id="sub">-</button>
+            <button onclick="addStr('X')" id="multi">X</button>
+            <button onclick="addStr('÷')" id="divide">÷</button>
+            <button onclick="calculate()" id="equal">=</button>
+            <button onclick="clean()" id="ac">AC</button>
+            <button onclick="backspace()" id="bs"><</button>
+        </div>
+    </div>
+</body>
+</html>
