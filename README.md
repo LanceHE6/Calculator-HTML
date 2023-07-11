@@ -8,4 +8,4 @@
 
 ## 预览
 
-<img src="F:\Code\Front_end\HTML\Calculator\preview.png" alt="preview" style="zoom:75%;" />
+<img src="./preview.png" alt="preview" style="zoom:75%;" />
